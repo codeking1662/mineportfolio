@@ -36,6 +36,14 @@ right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
 `
+const Contacts = styled(NavLink)`
+color: ${props => props.theme.text};
+position: absolute;
+top: 2rem;
+right: calc(14rem + 2vw);
+text-decoration: none;
+z-index:1;
+`
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
@@ -162,6 +170,23 @@ const Main = () => {
                     Say hola!
                 </motion.h2>
             </Contact>
+            <Contacts target="_blank" to={{pathname:"https://app.luminpdf.com/viewer/62c2ea20ffa6eecdbb120776"}}>
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
+                
+                >
+                    my cv
+                </motion.h2>
+            </Contacts>
 
             <BLOG to="/blog">
                 <motion.h2
