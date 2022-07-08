@@ -1,4 +1,13 @@
-
+{
+    id:,
+    name:"",
+    description:"",
+    tags:["","",""],
+    
+    demo:"",
+    github:""
+    
+},
 All the required Text for this portfolio
 Fonts
 

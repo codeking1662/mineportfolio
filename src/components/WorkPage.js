@@ -6,6 +6,7 @@ import {motion} from 'framer-motion';
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
+import ParticleComponent from '../subComponents/ParticleComponent';
 
 import { Work } from "../data/WorkData";
 import Card from '../subComponents/Card';
@@ -93,6 +94,7 @@ const WorkPage = () => {
 <LogoComponent theme='dark'/>
 <SocialIcons theme='dark'/>
 <PowerButton />
+<ParticleComponent theme='dark' />
 
      <Main ref={ref}   variants={container} initial='hidden' animate='show'  >
          {
