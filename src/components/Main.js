@@ -170,7 +170,7 @@ const Main = () => {
                     Say hola!
                 </motion.h2>
             </Contact>
-            <Contacts target="_blank" to={{pathname:"https://app.luminpdf.com/viewer/62c2ea20ffa6eecdbb120776"}}>
+            <Contacts target="_blank" to={{pathname:"https://app.luminpdf.com/viewer/62f5dcaddb837c57c1200a76"}}>
                 <motion.h2
                 initial={{
                     y:-200,
